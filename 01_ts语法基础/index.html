@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 
+    defer: 顾名思义，延迟执行，但是这个js加载就与dom文档渲染并行，但是执行会放在dom加载完后执行
+    async: js加载与执行都与dom文档渲染并行
+    没有上述两个属性时，立即加载并立即执行，阻塞dom渲染
+  -->
+  <script defer src="./03_HelloTS.js"></script>
+</body>
+</html>
