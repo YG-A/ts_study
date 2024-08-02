@@ -20,4 +20,4 @@ class Person2 {
 
 const p2 = new Person2('张三',18,180)
 p2.name = '李四'
-console.log(p2);
+console.log(p2); 
