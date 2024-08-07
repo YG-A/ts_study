@@ -9,13 +9,9 @@ class Person {
   }
 }
 
-/* 上面的语法糖 */
 class Person2 {
-  constructor(public name: string, private _age: number, readonly height: number) {
-    this.name = name
-    this._age = _age
-    this.height = height
-  }
+  /* 上面的语法糖 */
+  constructor(public name: string, private _age: number, readonly height: number) {}
 }
 
 const p2 = new Person2('张三',18,180)
